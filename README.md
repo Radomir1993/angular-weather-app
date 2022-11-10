@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Main View
-When the application is launched, the main view appears, along with the weather for the default city. For me it is Lodz, Poland
+When the application is launched, the main view appears, along with the weather for the default city. For me, it's Lodz in Poland
 
 ![](src/screenshots/mainView.png)
 

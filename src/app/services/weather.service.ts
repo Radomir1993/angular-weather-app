@@ -11,7 +11,7 @@ export class WeatherService {
 
   constructor(private http: HttpClient) { }
 
-  getWeatherData(cityName: string/*, countryName: string*/): Observable<WeatherData> {
+  getWeatherData(cityName: string): Observable<WeatherData> {
     return this.http.get<WeatherData>(environment.weatherApiBaseUrl, {
       headers: new HttpHeaders()
         .set(environment.XRapidAPIHostHeaderName, environment.XRapidAPIHostHeaderValue)
